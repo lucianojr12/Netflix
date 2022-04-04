@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#container {
+    background: url("./img/background.jpeg");
+    padding-bottom: 80px;
+}
+
+#botao-entrar {
+    background: #e50914;
+    color: #ffff;
+    font-size: 12px;
+    padding: 8px 18px;
+    border: 0;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer
+}
+
+#cabecalho {
+    padding: 28px 56px;
+}
+
+h1 {
+    color: #ffff;
+    text-align: center;
+    font-size: 48px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+#paragrafo-assista {
+    color: #ffff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+#paragrafo-pronto {
+    color: #ffff;
+    text-align: center;
+    margin-top: 18px;
+}
+
+input {
+    width: 500px;
+    padding-left: 10px;
+}
+
+#botao-email {
+    width: 200px;
+    background-color: #e50914;
+    color: #ffff;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#botao-email:hover {
+    opacity: 0.8;
+}
+
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70px;
+}
+
+#rodape {
+    background-color: black;
+    color: #ffff;
+    border-top: 10px solid #303030;
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#botao-pergunta {
+    width: 600px;
+    background-color: #303030;
+    height: 70px;
+    font-size: 24px;
+    text-align: left;
+    padding: 0 20px;
+    border: 0;
+    color: #ffff;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+
+}
+
+#imagem-pergunta {
+    float: right;
+    margin-top: 5px;
+    transform: rotate(45deg);
+}
+
+#imagem-pergunta-girar {
+    float: right;
+    margin-top: 5px;
+    transform: rotate(90deg);
+}
+
+
+
+#pergunta {
+    width: 600px;
+    background-color: #303030;
+    margin-left: auto;
+    margin-right: auto;
+    background: #303030;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: none;
+}
+
+.paragrafo-pergunta {
+    font-size: 20px;
+}
